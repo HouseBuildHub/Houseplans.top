@@ -1,0 +1,37 @@
+
+#container-saved-bottom-header__global{}
+
+.wrap-saved-bottom-header__global {
+  width: auto;
+  position: static;
+  float: none;
+  margin-left: 220px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.wrap-saved-bottom-header__global:hover {
+  color: #E35300;
+  text-decoration: underline;
+}
+
+
+
+
+.icon-saved {
+  color: #706f6f;
+  margin-top: 2px;
+  font-size: 14px;
+
+
+}
+
+.name-icon-saved a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 2px;
+
+}
