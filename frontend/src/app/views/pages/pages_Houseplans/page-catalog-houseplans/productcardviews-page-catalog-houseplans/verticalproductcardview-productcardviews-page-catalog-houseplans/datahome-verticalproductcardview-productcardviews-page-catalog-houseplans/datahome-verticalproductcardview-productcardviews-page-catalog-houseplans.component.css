@@ -8,7 +8,7 @@
   grid-template-rows: repeat(2, 1fr);
   padding-left: 5px;
   padding-right: 5px;
-  
+
 
 
 }
@@ -20,7 +20,7 @@
 }
 
 .caption {
-  font-size: 11px;
+  font-size: 10px;
   color: #999;
   display: flex;
   align-items: center;

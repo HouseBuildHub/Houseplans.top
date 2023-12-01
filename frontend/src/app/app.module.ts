@@ -1,3 +1,4 @@
+ /* import Modules  */
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -7,11 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgxPaginationModule } from 'ngx-pagination';
 
 
-
-
-
-
-
+/* import Components  */
 import { PageNotfoundGlobalComponent } from './views/pages/pages_Global/page-notfound-global/page-notfound-global.component';
 import { PageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/page-main-global.component';
 import { PageContactGlobalComponent } from './views/pages/pages_Global/page-contact-global/page-contact-global.component';
@@ -62,9 +59,7 @@ import { PageCatalogMaterialsComponent } from './views/pages/pages_Materials/pag
 import { PageCatalogSellersComponent } from './views/pages/pages_Sellers/page-catalog-sellers/page-catalog-sellers.component';
 import { PageCatalogShopsComponent } from './views/pages/pages_Shops/page-catalog-shops/page-catalog-shops.component';
 import { PageProductHouseplansComponent } from './views/pages/pages_Houseplans/page-product-houseplans/page-product-houseplans.component';
-
 import { ProductfilterleftpanelPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productfilterleftpanel-page-catalog-houseplans/productfilterleftpanel-page-catalog-houseplans.component';
-
 import { ServicelinksrightpanelPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/servicelinksrightpanel-page-catalog-houseplans/servicelinksrightpanel-page-catalog-houseplans.component';
 import { FilterselectionPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/filterselection-page-catalog-houseplans/filterselection-page-catalog-houseplans.component';
 import { SortingPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/sorting-page-catalog-houseplans/sorting-page-catalog-houseplans.component';
@@ -101,16 +96,41 @@ import { DepartmentBottomHeaderGlobalComponent } from './views/components/compon
 
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
 
-
-
-
-
+    /* B */
+    BannerAboveheaderGlobalComponent,
+    BreadcrumbGlobalComponent,
+    BottomHeaderGlobalComponent,
+    /* C */
+    CategorymenuAllSelectHeaderGlobalComponent,
+    CategorymenuHouseplansSelectHeaderGlobalComponent,
+    CategorymenuBuildersSelectHeaderGlobalComponent,
+    CenterHeaderGlobalComponent,
+    ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    /* D */
+    DisplayviewsPageCatalogHouseplansComponent,
+    DatahomeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    DataenergyVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    DiscountBottomHeaderGlobalComponent,
+    DepartmentBottomHeaderGlobalComponent,
+     /* E */
+    EstimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+     /* F */
+    FilterselectionPageCatalogHouseplansComponent,
+    FooterGlobalComponent,
+     /* H */
+    HeaderGlobalComponent,
+    HorizontalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+     /* I */
+    InputSearchGlobalComponent,
+    IdVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    ImageVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    /* N */
+    NameVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    /* P */
     PageNotfoundGlobalComponent,
     PageMainGlobalComponent,
     PageContactGlobalComponent,
@@ -126,19 +146,6 @@ import { DepartmentBottomHeaderGlobalComponent } from './views/components/compon
     PageAccountProjectGlobalComponent,
     PageMainHouseplansComponent,
     PageCategoryHouseplansComponent,
-    HeaderGlobalComponent,
-    FooterGlobalComponent,
-    SidebarrightGlobalComponent,
-    BannerAboveheaderGlobalComponent,
-    RegionSelectFooterGlobalComponent,
-    ShareSelectFooterGlobalComponent,
-    SigninSelectFooterGlobalComponent,
-    ScrolltotopGlobalComponent,
-    InputSearchGlobalComponent,
-    CategorymenuAllSelectHeaderGlobalComponent,
-    CategorymenuHouseplansSelectHeaderGlobalComponent,
-    CategorymenuBuildersSelectHeaderGlobalComponent,
-
     PageMainBuildersComponent,
     PageCategoryBuildersComponent,
     PageCardBuildersComponent,
@@ -161,60 +168,46 @@ import { DepartmentBottomHeaderGlobalComponent } from './views/components/compon
     PageCatalogSellersComponent,
     PageCatalogShopsComponent,
     PageProductHouseplansComponent,
-
-
     ProductfilterleftpanelPageCatalogHouseplansComponent,
-    ServicelinksrightpanelPageCatalogHouseplansComponent,
-
-    FilterselectionPageCatalogHouseplansComponent,
-    SortingPageCatalogHouseplansComponent,
-    TextseoPageCatalogHouseplansComponent,
-    ReviewedGlobalComponent,
-    RecommendedGlobalComponent,
-    DisplayviewsPageCatalogHouseplansComponent,
-    BreadcrumbGlobalComponent,
     PaginationGlobalComponent,
     ProductcardviewsPageCatalogHouseplansComponent,
-    VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    HorizontalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    ImageVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    IdVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    TypeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-
-    NameVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     PriceVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    /* R */
     RatingVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    DatahomeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    DataenergyVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    EstimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-
-    BottomHeaderGlobalComponent,
-    TopHeaderGlobalComponent,
-    CenterHeaderGlobalComponent,
+    RegionSelectFooterGlobalComponent,
+    ReviewedGlobalComponent,
+    RecommendedGlobalComponent,
+    /* S */
+    SidebarrightGlobalComponent,
+    ShareSelectFooterGlobalComponent,
+    SigninSelectFooterGlobalComponent,
+    ScrolltotopGlobalComponent,
+    ServicelinksrightpanelPageCatalogHouseplansComponent,
+    ServicelinksrightpanelPageCatalogHouseplansComponent,
+    SortingPageCatalogHouseplansComponent,
     SavedBottomHeaderGlobalComponent,
-    DiscountBottomHeaderGlobalComponent,
-    DepartmentBottomHeaderGlobalComponent,
-
-
-
+    /* T */
+    TextseoPageCatalogHouseplansComponent,
+    TypeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    TopHeaderGlobalComponent,
+    /* V */
+    VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
   ],
 
 
+
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     BrowserAnimationsModule,
     BreadcrumbModule,
     MatIconModule,
     NgxPaginationModule,
-
-
-
   ],
+
 
 
   providers: [],

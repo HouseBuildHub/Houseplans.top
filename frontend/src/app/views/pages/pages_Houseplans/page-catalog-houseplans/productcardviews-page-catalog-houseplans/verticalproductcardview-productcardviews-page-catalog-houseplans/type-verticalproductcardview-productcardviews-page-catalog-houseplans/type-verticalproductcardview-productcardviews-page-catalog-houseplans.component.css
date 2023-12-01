@@ -11,7 +11,7 @@
 }
 
 .type:hover {
-  color: rgb(255, 110, 12)
+  color: #087431;
 }
 
 .type p {
@@ -25,6 +25,6 @@
 
 .text-type {
   font-weight: 500;
-  color: rgb(255, 110, 12)
+  color: #087431;
 
 }
