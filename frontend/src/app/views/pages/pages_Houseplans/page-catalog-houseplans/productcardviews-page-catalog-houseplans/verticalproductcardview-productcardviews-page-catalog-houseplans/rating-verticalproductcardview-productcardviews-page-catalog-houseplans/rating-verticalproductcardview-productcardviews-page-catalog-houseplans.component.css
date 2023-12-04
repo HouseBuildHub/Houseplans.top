@@ -2,60 +2,45 @@
 
 .wrap-rating {}
 
-.rating {}
-
-
-
-
-
-
-/* product_rating */
-
-.product_rating {
+.rating {
   display: flex;
-  margin-top: 30px;
-  padding-left: 10px;
+  align-items: center;
+  margin-top: 5px;
+  align-items: baseline
 }
 
-.product_rating-average {}
-
-.product_rating-stars {
-  padding-left: 5px;
+.stars-rating {
+  display: flex;
+  margin-left: auto;
+  cursor: pointer
 }
 
-.product_rating-popover {
-  padding-left: 5px;
-  display: block;
-  padding-left: 1.9rem;
+.stars-size {
+  font-size: 18px;
+  color: #FFA41C;
+  margin-left: -1p
+}
+
+.expand-rating {
+  color: #706d6d;
+  font-size: 20px;
+  margin-left: -1px
+}
+
+.quantity-rating {
+  display: flex;
+  margin-right: 20px
+}
+
+.reviews-rating a {
+  font-size: 13px;
+  color: #a09d9d;
   position: relative;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.4rem;
-  line-height: 1.5rem;
-  color: #484848;
-  cursor: pointer;
+  bottom: 4px;
+  margin-left: 2px
 }
 
-.product_rating-popover:hover {
-  color: rgb(255, 110, 12);
-  text-decoration: underline;
-}
-
-.a-image {
-  width: 18px;
-  height: 18px;
-}
-
-.product_rating-quantity {
-  padding-left: 5px;
-  cursor: pointer;
-  color: #0f5a06;
-}
-
-.product_rating-quantity:hover {
+.reviews-rating a:hover {
   color: #FF6A00;
-  text-decoration: underline;
-
+  text-decoration: underline
 }
-
-

@@ -1,19 +1,30 @@
-/* pagecatalog__houseplans */
 #pagecatalog__houseplans {}
 
-/* pagecatalog-container__houseplans */
-#pagecatalog-container__houseplans {
+#container-pagecatalog__houseplans {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: relative
 }
 
-/* pagecatalog-container-leeftpanel__houseplans */
-#pagecatalog-container-leeftpanel__houseplans {}
+#leeftpanel-pagecatalog-__houseplans {
+    width: 200px
+  }
 
-/* pagecatalog-container-centercontent__houseplans */
-#pagecatalog-container-centercontent__houseplans {
+#centercontent-pagecatalog__houseplans {
 }
+
+#rightpanel-pagecatalog__houseplans {
+  width: 134px;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-left: 0px;
+}
+
+
+
+
+
+
 
 #breadcrumbs-pagecatalog__houseplans {
   color: #666;
@@ -141,10 +152,3 @@ display: grid;
 
 
 
-/* pagecatalog-container-rightpanel__houseplans */
-#pagecatalog-container-rightpanel__houseplans {
-  width: 164px;
-  align-self: flex-start;
-  margin-left: auto;
-  margin-left: 0px;
-}

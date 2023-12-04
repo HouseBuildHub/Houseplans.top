@@ -20,7 +20,7 @@
 }
 
 .caption {
-  font-size: 10px;
+  font-size: 11px;
   color: #999;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   margin-top: px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #333;
 

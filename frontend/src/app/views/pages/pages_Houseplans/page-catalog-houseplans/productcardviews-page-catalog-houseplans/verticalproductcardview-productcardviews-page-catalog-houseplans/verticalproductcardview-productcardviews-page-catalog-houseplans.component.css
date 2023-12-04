@@ -1,21 +1,21 @@
 .wrap-productcardverticaldview__houseplans {
-display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: auto;
   padding-left: px;
   padding-right: px;
   gap: 5px;
 }
 
 .items-gallery-productcardverticaldview__houseplans {
-  width: 280px;
+  width: 320px;
   border: solid 1px #f3f3f3;
   border-radius: 2px;
 }
 
 
 .items-gallery-productcardverticaldview__houseplans:hover {
-  border: 1px solid #dae2ed;
+  border: 1px solid #FF6A00;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .13), -3px -3px 3px rgba(0, 0, 0, .13);
   z-index: 1;
 }
@@ -24,56 +24,8 @@ display: grid;
   padding-bottom: 16px;
   position: relative;
   border: 1px solid #fff;
+  width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* product_price */
-
-.product-priсe {
-  display: flex;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px #CECAC8 solid;
-}
-
-.product_priсe-from {
-  font-size: 14px;
-  color: #CECAC8;
-  font-weight: 200;
-}
-
-.product_priсe-currency {
-  font-size: 18px;
-  color: #474544;
-  font-weight: 800;
-  padding-left: 5px;
-}
-
-.product_priсe-actual {
-  font-size: 20px;
-  color: #e71d1d;
-  font-weight: 800;
-  padding-left: 5px;
-}
-
-.product_priсe-initial {
-  padding-left: 10px;
-  text-decoration: line-through;
-}
-
 
 
 
