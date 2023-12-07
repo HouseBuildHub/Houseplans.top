@@ -1,4 +1,4 @@
-#container-header__global {
+#header__global {
   position: relative;
   text-align: left;
   display: block;
@@ -7,24 +7,19 @@
   box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
 }
 
-.wrap-header__global {
+#container-header__global {
   display: block;
   margin: 0 auto;
   min-width: 1200px;
   max-width: 1500px;
   padding: 0 32px;
-
 }
 
-@media (min-width: 1264px) {
-  .wrap-header__global {
-    display: block;
-    margin: 0 auto;
-    min-width: 1200px;
-    max-width: 1500px;
-    padding: 0 32px;
-  }
-}
+#top-header__global {}
+
+#center-header__global {}
+
+#bottom-header__global {}
 
 
 

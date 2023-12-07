@@ -1,4 +1,4 @@
-.wrap-bottom-global {
+.wrap-bottom-header-global {
   display: flex;
   justify-content: space-between;
   max-height: 24px;
@@ -15,7 +15,8 @@
   height: 100%;
 }
 
+#saved-bottom-header-global {}
 
+#department-bottom-header-global {}
 
-
-
+#discount-bottom-header-global {}

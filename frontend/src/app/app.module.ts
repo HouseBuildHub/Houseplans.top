@@ -92,6 +92,11 @@ import { CenterHeaderGlobalComponent } from './views/components/components_Globa
 import { SavedBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/saved-bottom-header-global/saved-bottom-header-global.component';
 import { DiscountBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/discount-bottom-header-global/discount-bottom-header-global.component';
 import { DepartmentBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/department-bottom-header-global/department-bottom-header-global.component';
+import { CategoryselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/categoryselection-center-header-global/categoryselection-center-header-global.component';
+import { SearchbarCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/searchbar-center-header-global/searchbar-center-header-global.component';
+import { LanguageselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/languageselection-center-header-global/languageselection-center-header-global.component';
+import { RegistrationCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/registration-center-header-global/registration-center-header-global.component';
+import { BasketCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/basket-center-header-global/basket-center-header-global.component';
 
 
 
@@ -194,6 +199,11 @@ import { DepartmentBottomHeaderGlobalComponent } from './views/components/compon
     VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    CategoryselectionCenterHeaderGlobalComponent,
+    SearchbarCenterHeaderGlobalComponent,
+    LanguageselectionCenterHeaderGlobalComponent,
+    RegistrationCenterHeaderGlobalComponent,
+    BasketCenterHeaderGlobalComponent,
 
   ],
 
