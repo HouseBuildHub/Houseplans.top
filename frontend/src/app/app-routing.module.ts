@@ -10,6 +10,7 @@ import { PagePartnershipGlobalComponent } from './views/pages/pages_Global/page-
 import { PageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/page-catalog-houseplans.component';
 import { PageCatalogBuildersComponent } from './views/pages/pages_Builders/page-catalog-builders/page-catalog-builders.component';
 import { PageProductHouseplansComponent } from './views/pages/pages_Houseplans/page-product-houseplans/page-product-houseplans.component';
+import { PageSavedGlobalComponent } from './views/pages/pages_Global/page-saved-global/page-saved-global.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'partnership', component: PagePartnershipGlobalComponent },
   { path: 'houseplans', component: PageCatalogHouseplansComponent, data: { breadcrumb: 'Houseplans' } },
   { path: 'builders', component: PageCatalogBuildersComponent, data: { breadcrumb: 'Builders' } },
+  { path: 'saved', component: PageSavedGlobalComponent, data: { breadcrumb: 'Saved' } },
   { path: 'houseplans/product', component: PageProductHouseplansComponent, data: { breadcrumb: 'Product' } },
 
 
