@@ -15,18 +15,23 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 
+
+
 /* import Components  */
 /* B */
 import { BannerAboveheaderGlobalComponent } from './views/components/components_Global/banner-global/banner-aboveheader-global/banner-aboveheader-global.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BreadcrumbGlobalComponent } from './views/components/components_Global/breadcrumb-global/breadcrumb-global.component';
-import { BottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/bottom-header-global.component';
 import { BasketCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/basket-center-header-global/basket-center-header-global.component';
+import { BottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/bottom-header-global.component';
+import { BottomPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/bottom-page-main-global/bottom-page-main-global.component';
+import { BreadcrumbGlobalComponent } from './views/components/components_Global/breadcrumb-global/breadcrumb-global.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 /* C */
 import { CategorymenuAllSelectHeaderGlobalComponent } from './views/ui/ui_Global/select_Global/categorymenu-all-select-header-global/categorymenu-all-select-header-global.component';
 import { CategorymenuHouseplansSelectHeaderGlobalComponent } from './views/ui/ui_Global/select_Global/categorymenu-houseplans-select-header-global/categorymenu-houseplans-select-header-global.component';
 import { CategorymenuBuildersSelectHeaderGlobalComponent } from './views/ui/ui_Global/select_Global/categorymenu-builders-select-header-global/categorymenu-builders-select-header-global.component';
+import { CenterPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/center-page-main-global/center-page-main-global.component';
 import { ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/climate-verticalproductcardview-productcardviews-page-catalog-houseplans/climate-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { CenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/center-header-global.component';
 import { CategoryselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/categoryselection-center-header-global/categoryselection-center-header-global.component';
@@ -50,9 +55,17 @@ import { HeaderGlobalComponent } from './views/components/components_Global/head
 import { HorizontalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/horizontalproductcardview-productcardviews-page-catalog-houseplans/horizontalproductcardview-productcardviews-page-catalog-houseplans.component';
 
 /* I */
-import { InputSearchGlobalComponent } from './views/ui/ui_Global/input_Global/input-search-global/input-search-global.component';
-import { ImageVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/image-verticalproductcardview-productcardviews-page-catalog-houseplans/image-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { IdVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/id-verticalproductcardview-productcardviews-page-catalog-houseplans/id-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
+import { ImageVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/image-verticalproductcardview-productcardviews-page-catalog-houseplans/image-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
+import { InfoarchitectsCenterPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/center-page-main-global/infoarchitects-center-page-main-global/infoarchitects-center-page-main-global.component';
+import { InfobannerTopPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/top-page-main-global/infobanner-top-page-main-global/infobanner-top-page-main-global.component';
+import { InfobuildersCenterPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/center-page-main-global/infobuilders-center-page-main-global/infobuilders-center-page-main-global.component';
+import { InfohouseplansCenterPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/center-page-main-global/infohouseplans-center-page-main-global/infohouseplans-center-page-main-global.component';
+import { InfoitemsTopPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/top-page-main-global/infoitems-top-page-main-global/infoitems-top-page-main-global.component';
+import { InfosellersCenterPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/center-page-main-global/infosellers-center-page-main-global/infosellers-center-page-main-global.component';
+import { InputSearchGlobalComponent } from './views/ui/ui_Global/input_Global/input-search-global/input-search-global.component';
+
+
 
 /* L */
 import { LanguageselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/languageselection-center-header-global/languageselection-center-header-global.component';
@@ -124,6 +137,8 @@ import { SearchbarCenterHeaderGlobalComponent } from './views/components/compone
 
 /* T */
 import { TextseoPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/textseo-page-catalog-houseplans/textseo-page-catalog-houseplans.component';
+import { TopPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/top-page-main-global/top-page-main-global.component';
+
 import { TypeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/type-verticalproductcardview-productcardviews-page-catalog-houseplans/type-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { TopHeaderGlobalComponent } from './views/components/components_Global/header-global/top-header-global/top-header-global.component';
 
@@ -138,50 +153,70 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
 
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
 
     /* B */
     BannerAboveheaderGlobalComponent,
+    BasketCenterHeaderGlobalComponent,
     BreadcrumbGlobalComponent,
     BottomHeaderGlobalComponent,
+    BottomPageMainGlobalComponent,
 
     /* C */
     CategorymenuAllSelectHeaderGlobalComponent,
+    CategoryselectionCenterHeaderGlobalComponent,
+
     CategorymenuHouseplansSelectHeaderGlobalComponent,
     CategorymenuBuildersSelectHeaderGlobalComponent,
     CenterHeaderGlobalComponent,
+    CenterPageMainGlobalComponent,
     ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
     /* D */
-    DisplayviewsPageCatalogHouseplansComponent,
+
     DatahomeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     DataenergyVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     DiscountBottomHeaderGlobalComponent,
+    DisplayviewsPageCatalogHouseplansComponent,
     DepartmentBottomHeaderGlobalComponent,
 
-     /* E */
+    /* E */
     EstimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
-     /* F */
+    /* F */
     FilterselectionPageCatalogHouseplansComponent,
     FooterGlobalComponent,
 
-     /* H */
+    /* H */
     HeaderGlobalComponent,
     HorizontalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
-     /* I */
-    InputSearchGlobalComponent,
+    /* I */
     IdVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     ImageVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    InputSearchGlobalComponent,
+    InfoarchitectsCenterPageMainGlobalComponent,
+    InfobannerTopPageMainGlobalComponent,
+    InfobuildersCenterPageMainGlobalComponent,
+    InfohouseplansCenterPageMainGlobalComponent,
+    InfoitemsTopPageMainGlobalComponent,
+    InfosellersCenterPageMainGlobalComponent,
+
+    /* L */
+    LanguageselectionCenterHeaderGlobalComponent,
+
+    /* M */
 
     /* N */
     NameVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
 
     /* P */
-    PageSavedGlobalComponent,
+
     PageNotfoundGlobalComponent,
     PageMainGlobalComponent,
     PageContactGlobalComponent,
@@ -219,6 +254,7 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
     PageCatalogSellersComponent,
     PageCatalogShopsComponent,
     PageProductHouseplansComponent,
+    PageSavedGlobalComponent,
     ProductfilterleftpanelPageCatalogHouseplansComponent,
     PaginationGlobalComponent,
     ProductcardviewsPageCatalogHouseplansComponent,
@@ -227,37 +263,33 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
     /* R */
     RatingVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     RegionSelectFooterGlobalComponent,
+    RegistrationCenterHeaderGlobalComponent,
     ReviewedGlobalComponent,
     RecommendedGlobalComponent,
 
     /* S */
+    SavedBottomHeaderGlobalComponent,
+    SavedGlobalComponent,
+    ScrolltotopGlobalComponent,
     SidebarrightGlobalComponent,
     ShareSelectFooterGlobalComponent,
     SigninSelectFooterGlobalComponent,
-    ScrolltotopGlobalComponent,
+    SearchbarCenterHeaderGlobalComponent,
     ServicelinksrightpanelPageCatalogHouseplansComponent,
     ServicelinksrightpanelPageCatalogHouseplansComponent,
     SortingPageCatalogHouseplansComponent,
-    SavedBottomHeaderGlobalComponent,
 
     /* T */
     TextseoPageCatalogHouseplansComponent,
     TypeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     TopHeaderGlobalComponent,
+    TopPageMainGlobalComponent,
 
     /* V */
     VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
-    CategoryselectionCenterHeaderGlobalComponent,
-    SearchbarCenterHeaderGlobalComponent,
-    LanguageselectionCenterHeaderGlobalComponent,
-    RegistrationCenterHeaderGlobalComponent,
-    BasketCenterHeaderGlobalComponent,
-    SavedGlobalComponent,
-    PageSavedGlobalComponent,
   ],
-
 
   imports: [
     AppRoutingModule,
@@ -268,8 +300,7 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
     NgxPaginationModule,
   ],
 
-
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
