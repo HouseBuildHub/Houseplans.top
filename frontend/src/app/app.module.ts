@@ -35,6 +35,7 @@ import { CenterPageMainGlobalComponent } from './views/pages/pages_Global/page-m
 import { ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/climate-verticalproductcardview-productcardviews-page-catalog-houseplans/climate-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { CenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/center-header-global.component';
 import { CategoryselectionCenterHeaderGlobalComponent } from './views/components/components_Global/header-global/center-header-global/categoryselection-center-header-global/categoryselection-center-header-global.component';
+import { CustomerserviceBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/customerservice-bottom-header-global/customerservice-bottom-header-global.component';
 
 /* D */
 import { DisplayviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/displayviews-page-catalog-houseplans/displayviews-page-catalog-houseplans.component';
@@ -138,14 +139,16 @@ import { SearchbarCenterHeaderGlobalComponent } from './views/components/compone
 /* T */
 import { TextseoPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/textseo-page-catalog-houseplans/textseo-page-catalog-houseplans.component';
 import { TopPageMainGlobalComponent } from './views/pages/pages_Global/page-main-global/top-page-main-global/top-page-main-global.component';
-
 import { TypeVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/type-verticalproductcardview-productcardviews-page-catalog-houseplans/type-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { TopHeaderGlobalComponent } from './views/components/components_Global/header-global/top-header-global/top-header-global.component';
 
 /* V */
+
 import { VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/viewpoint-verticalproductcardview-productcardviews-page-catalog-houseplans/viewpoint-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
 import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent } from './views/pages/pages_Houseplans/page-catalog-houseplans/productcardviews-page-catalog-houseplans/verticalproductcardview-productcardviews-page-catalog-houseplans/verified-verticalproductcardview-productcardviews-page-catalog-houseplans/verified-verticalproductcardview-productcardviews-page-catalog-houseplans.component';
+import { GeolocationBottomHeaderGlobalComponent } from './views/components/components_Global/header-global/bottom-header-global/geolocation-bottom-header-global/geolocation-bottom-header-global.component';
+
 
 
 
@@ -176,6 +179,7 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
     CenterHeaderGlobalComponent,
     CenterPageMainGlobalComponent,
     ClimateVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    CustomerserviceBottomHeaderGlobalComponent,
 
     /* D */
 
@@ -286,9 +290,12 @@ import { VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansCom
     TopPageMainGlobalComponent,
 
     /* V */
+
     VerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+
     ViewpointVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
     VerifiedVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent,
+    GeolocationBottomHeaderGlobalComponent,
   ],
 
   imports: [

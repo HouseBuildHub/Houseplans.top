@@ -1,0 +1,36 @@
+.wrap-customerservice-bottom-header__global {
+  width: auto;
+  position: static;
+  float: none;
+  margin-left: auto;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: 2px;
+  font-size: 13px;
+}
+
+.wrap-customerservice-bottom-header__global:hover .name-customerservice {
+  color: #E35300;
+}
+
+.wrap-customerservice-bottom-header__global:hover .material-icon-arrow {
+  color: #E35300;
+}
+
+.icon-arrow {
+  margin-top: 2px;
+  font-size: 18px;
+  color: #706f6f;
+}
+
+.vertical-divider {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 0px;
+  display: inline;
+}

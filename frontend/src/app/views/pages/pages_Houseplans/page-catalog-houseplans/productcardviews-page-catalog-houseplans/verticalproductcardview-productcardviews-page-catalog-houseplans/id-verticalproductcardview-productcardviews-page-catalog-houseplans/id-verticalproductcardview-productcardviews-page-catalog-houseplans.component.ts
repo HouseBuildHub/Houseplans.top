@@ -11,25 +11,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [
     './id-verticalproductcardview-productcardviews-page-catalog-houseplans.component.css',
   ],
-
 })
-
 export class IdVerticalproductcardviewProductcardviewsPageCatalogHouseplansComponent
   implements OnInit
 {
-  id = 100;
-  type = 'bbb';
+
+  id_Houseplan: number = 100;
+  type_Houseplan: string = 'bbb';
+
 
   constructor() {}
 
   ngOnInit() {
-    this.id = 998;
-    this.type = 'ZEH';
+    this.id_Houseplan = 200;
+    this.type_Houseplan = 'ZEH';
   }
 
   addToFavorites() {
-    this.id = 10000000;
+    this.id_Houseplan = 10000000;
+    this.type_Houseplan = 'HHH';
   }
-
 }
 

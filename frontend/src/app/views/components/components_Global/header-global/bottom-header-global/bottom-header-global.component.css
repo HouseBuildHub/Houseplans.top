@@ -15,8 +15,12 @@
   height: 100%;
 }
 
-#saved-bottom-header-global {}
+#geolocation-bottom-header-global {}
+
+#saved-bottom-header-global {margin-right: auto;}
 
 #department-bottom-header-global {}
 
-#discount-bottom-header-global {}
+#discount-bottom-header-global {margin-left: 10px;}
+
+#customerservice-bottom-header-global {margin-left: auto;}
